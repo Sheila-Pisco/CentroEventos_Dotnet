@@ -1,0 +1,7 @@
+# Build results
+bin/
+obj/
+
+# Ignore cache and temporary files
+*.cache
+*.Assembly.cs

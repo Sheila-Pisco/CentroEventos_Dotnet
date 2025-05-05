@@ -1,3 +1,4 @@
+
 using System;
 
 namespace CentroEventos.Aplicacion;
@@ -32,7 +33,7 @@ public class Persona
 
     public string toString(){
         string aux="";
-        aux+=$"ID: {_id} \nNombre: {_nombre} \nApellido: {_apellido} \nDireccion: {_direccion} \nFacultad: {_facultad} \nTelefono: {_telefono} \nCorreo: {_correo}";
+        aux+=$"ID: {_id} \n Nombre: {_nombre} \nApellido: {_apellido} \nDireccion: {_direccion} \nFacultad: {_facultad} \nTelefono: {_telefono} \nCorreo: {_correo}";
         return aux;
     }
 }

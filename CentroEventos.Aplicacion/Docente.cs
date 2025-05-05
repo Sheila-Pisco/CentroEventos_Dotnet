@@ -14,7 +14,7 @@ public class Docente : Persona
     }
     public string toString(){
         string aux="";
-        aux+=$" {base.toString()} \nMatricula: {_matricula} \nAño Ingreso: {_anioIngreso}";
+        aux+=$" {base.toString()} \n Matricula: {_matricula} \nAño Ingreso: {_anioIngreso}";
         return aux;
     }
 }

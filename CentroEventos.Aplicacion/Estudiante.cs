@@ -1,3 +1,4 @@
+
 using System;
 
 namespace CentroEventos.Aplicacion;
@@ -13,7 +14,7 @@ public class Estudiante : Persona
     }
     public string toString(){
         string aux="";
-        aux+=$" {base.toString()} \nNumero Alumno: {_numAlumno} /nCarrera: {_carrera}";
+        aux+=$" {base.toString()} \n Numero Alumno: {_numAlumno} /nCarrera: {_carrera}";
         return aux;
     }
 }
